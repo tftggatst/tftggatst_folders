@@ -2,8 +2,8 @@ remote_state{
     backend = "gcs"
     config = {
         bucket = "state-bucket-tftggatst"
-        prefix = "tst"
-        project = "sandbox1-372116"
+        prefix = "sandbox1"
+        project = "tftggatst"
     }
 }
 
