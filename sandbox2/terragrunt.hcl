@@ -3,7 +3,7 @@ remote_state{
     config = {
         bucket = "state-bucket-tftggatst"
         prefix = "tst"
-        project = "tftggatst"
+        project = "sandbox2-372116"
     }
 }
 

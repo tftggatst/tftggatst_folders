@@ -2,7 +2,7 @@ resource "google_compute_instance" "default" {
   name         = "tftggatst"
   machine_type = "e2-micro"
   zone         = "us-west1-a"
-  project = "sandbox2"
+  project = "sandbox2-372116"
 
   
   boot_disk {
