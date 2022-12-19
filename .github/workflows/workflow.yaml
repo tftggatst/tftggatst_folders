@@ -4,6 +4,8 @@ on:
     branches:
     - main
   pull_request:
+    branches:
+      - main
 jobs:
    # JOB to run change detection
   changes:
@@ -18,8 +20,10 @@ jobs:
       id: filter
       with:
         filters: |
-          sandbox1: sandbox1
-          sandbox2: sandbox2
+          sandbox1: 
+            - 'sandbox1/**'
+          sandbox2:
+            - 'sandbox2/**'
   
   
   terragruntrun:
