@@ -12,7 +12,7 @@ resource "google_compute_instance" "default" {
   }
 
   labels = {
-    environment                = "test1"
+    environment                = "test11"
     month = "december"
   }
 
